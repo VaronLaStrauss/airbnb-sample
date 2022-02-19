@@ -1,0 +1,23 @@
+.app {
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+
+  .content {
+    padding: 1rem 1.5rem;
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    .experience-container {
+      flex: 1 1 auto;
+      display: flex;
+      flex-direction: row;
+      gap: 1rem;
+      overflow-x: auto;
+    }
+  }
+}

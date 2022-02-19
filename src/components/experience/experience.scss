@@ -1,0 +1,45 @@
+.experience {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 12rem;
+  font-size: 0.9rem;
+
+  .status {
+    position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
+    background-color: white;
+    font-size: small;
+    padding: 0.2rem;
+    border-radius: 2px;
+  }
+
+  .img-cont {
+    height: 14rem;
+
+    img {
+      border-radius: 10px;
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .information {
+    display: flex;
+    gap: 0.1rem;
+    flex-direction: column;
+
+    & > div:first-of-type {
+      display: inline-flex;
+      align-items: center;
+    }
+  }
+
+  .description {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}

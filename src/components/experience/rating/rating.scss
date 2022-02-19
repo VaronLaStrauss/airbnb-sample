@@ -1,0 +1,17 @@
+.rating {
+  display: inline-flex;
+  align-items: center;
+
+  .star {
+    color: #fe395c;
+    font-size: 1rem;
+  }
+}
+
+.muted {
+  color: #b3b3b3;
+}
+
+.bold {
+  font-weight: bold;
+}

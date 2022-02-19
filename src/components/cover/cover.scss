@@ -1,0 +1,14 @@
+.cover-container {
+  .picture-cards {
+    min-height: 30vh;
+    max-height: 80vh;
+    padding: 0 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
+    gap: 1rem;
+  }
+
+  .description {
+    width: clamp(30%, 45ch, 100%);
+  }
+}
